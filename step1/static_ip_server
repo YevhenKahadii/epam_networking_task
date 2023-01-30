@@ -1,0 +1,30 @@
+sudo vi /etc/netplan/00-installer-config.yaml
+
+# This is the network config written by 'subiquity'
+network:
+  version: 2
+  renderer: NetworkManager  
+  ethernets:
+    enp0s3:
+      dhcp4: no
+      addresses:
+        - 192.168.0.200/24  
+      gateway4: 192.168.0.1   
+      nameservers:
+        addresses: [192.168.0.1, 8.8.8.8]
+      routes:
+        - to: default
+          via: 192.168.0.1
+    enp0s8: 
+      dhcp4: no
+      addresses:
+        - 10.87.7.1/24
+    enp0s9:
+      dhcp4: no
+      addresses:
+        - 10.2.87.1/24
+  
+sudo netplan try
+sudo netplan apply
+
+  
