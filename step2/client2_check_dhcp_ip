@@ -1,0 +1,5 @@
+sudo systemctl restart NetworManager
+
+ip a
+
+ip r
