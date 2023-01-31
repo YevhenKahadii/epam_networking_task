@@ -1,4 +1,6 @@
 # epam_networking_task
+![image](https://user-images.githubusercontent.com/106541199/215833337-7f0530aa-48c5-43ea-9879-0385504a8558.png)
+
 EPAM University Programs DevOps external course
 
 Module – Linux Networking
