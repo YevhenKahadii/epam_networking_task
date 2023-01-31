@@ -1,13 +1,20 @@
 # epam_networking_task
-![image](https://user-images.githubusercontent.com/106541199/215833337-7f0530aa-48c5-43ea-9879-0385504a8558.png)
-
 EPAM University Programs DevOps external course
 
 Module – Linux Networking
 
-The practical part of the Linux Networking module involves creating means Virtual Box network shown in Figure 1
+The practical part of the Linux Networking module involves creating means Virtual Box network shown in Picture 1
+![image](https://user-images.githubusercontent.com/106541199/215833337-7f0530aa-48c5-43ea-9879-0385504a8558.png)
+                                         Picture 1
+Network parameters:
+Net1 192.168.0.0/24
+Net2 10.87.7.0/24
+Net3 10.2.87.0/24
+Net 4 172.16.7.0/24
+client1 lo: 172.17.17.1/24, 172.17.27.1/24
 
-Figure 1
+
+
 
 Host is the computer on which Virtual Box is running;
 
