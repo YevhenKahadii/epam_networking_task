@@ -9,14 +9,12 @@ The practical part of the Linux Networking module involves creating means Virtua
                                          Picture 1
                                          
 Network parameters:
-Net1 192.168.0.0/24
-Net2 10.87.7.0/24
-Net3 10.2.87.0/24
-Net 4 172.16.7.0/24
+
+Net1 192.168.0.0/24;
+Net2 10.87.7.0/24;
+Net3 10.2.87.0/24;
+Net 4 172.16.7.0/24;
 client1 lo: 172.17.17.1/24, 172.17.27.1/24
-
-
-
 
 Host is the computer on which Virtual Box is running;
 
