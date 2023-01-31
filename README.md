@@ -5,7 +5,9 @@ Module – Linux Networking
 
 The practical part of the Linux Networking module involves creating means Virtual Box network shown in Picture 1
 ![image](https://user-images.githubusercontent.com/106541199/215833337-7f0530aa-48c5-43ea-9879-0385504a8558.png)
+
                                          Picture 1
+                                         
 Network parameters:
 Net1 192.168.0.0/24
 Net2 10.87.7.0/24
