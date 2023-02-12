@@ -1,8 +1,11 @@
 # Check firewall
-sudo iptables -L
+sudo iptables -vnL
 
 #Block ssh connection from Client2
 sudo iptables -A INPUT -p tcp -s 10.2.87.12 --dport ssh -j DROP
+
+#Accept ssh conection from Client1
+sudo iptables -A INPUT -p tcp -s 10.87.7.12 --dport ssh -j ACCEPT
 
 #Accept ping from Client2 to 172.17.17.1 on Client1
 sudo iptables -A FORWARD -p icmp -d 172.17.17.1 -j ACCEPT
